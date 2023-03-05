@@ -1,0 +1,41 @@
+
+body {
+  background-color: #ddead1;
+}
+
+
+nav .pages li {
+  float: right;
+}
+  
+nav .pages a {
+  display: block;
+  color: white;
+  padding: 17px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #87ab69;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+nav .pages a:hover {
+  background-color: white;
+  color: #658354;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+}
+
+main {
+  margin-top: 55px;
+}
